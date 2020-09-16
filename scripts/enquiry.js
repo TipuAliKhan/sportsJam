@@ -1,7 +1,7 @@
 function enquire_function() {
   event.preventDefault();
   var email = document.getElementById("frm-email").value;
-  var name = document.getElementById("frm-name").value;
+  var message = document.getElementById("frm-name").value;
   // var detail = { email: email, name: name };
   // console.log(detail);
 
@@ -14,11 +14,11 @@ function enquire_function() {
       Authorization: "5f54fb420275631f28aa698b",
     },
     data:
-      `{\n\t\"name\": \"` +
-      name +
-      `\",\n\t\"contact\": \"` +
+      `{\n\t\"name\": \"test\",\n\t\"contact\": \"` +
       email +
-      `\",\n\t\"message\": \"test 123\"\n}`,
+      `\",\n\t\"message\": \"` +
+      message +
+      `\"\n}`,
   };
 
   $.ajax(settings).done(function (response) {
