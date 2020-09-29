@@ -1,214 +1,252 @@
 data = [
   {
-    name: "WC 3777 MOTORIZED TREADMILL",
+    name: "Vinex Gym Foam Rectangle",
+    description:
+      "Foam rectangle made of PVC coated fabric with 3 sides zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/WC3777-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/WC3777-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/WC3777-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/WC3777-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/WC3777-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/WC3777.jpg 1232w",
-    mrp: "₹ 56,000.00",
-    sellingPrice: "₹ 33,000.00",
-    productMeta: "",
-    postedIn: "Categories: Treadmill Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM RECTANGLE_4158.jpg",
+    variants: [
+      {
+        productCode: "VGF-CB123030",
+        otherDetails: "120 cm x 30 cm x 30 cm",
+      },
+      {
+        productCode: "VGF-CB602525",
+        otherDetails: "60 cm x 25 cm x 25 cm",
+      },
+    ],
   },
   {
-    name: "WC 3333I Motorized Treadmill",
+    name: "Vinex Gym Foam Cylinder",
+    description:
+      "Foam cylinder made of PVC coated fabric with full zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/3333i-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3333i-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3333i-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3333i-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3333i-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3333i-1.jpg 1232w",
-    mrp: "₹ 83,000.00",
-    sellingPrice: "₹ 50,500.00",
-    productMeta: "SKU: \n\t\t\tWC 3333I\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM CYLINDER_4307.jpg",
+    variants: [
+      {
+        productCode: "VGF-CL6030",
+        otherDetails: "60 cm x 30 cm",
+      },
+      {
+        productCode: "VGF-CL8030",
+        otherDetails: "80 cm x 30 cm",
+      },
+    ],
   },
   {
-    name: "WC 4040 Rehab Treadmill",
+    name: "Vinex Gym Foam Square Bridge",
+    description:
+      "Foam square bridge made of PVC coated fabric with 3 sides zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/WC-4040-Rehab.jpg 1232w",
-    mrp: "",
-    sellingPrice: "",
-    productMeta: "SKU: \n\t\t\tWC 4040 Rehab\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM SQUARE BRIDGE_4338.jpg",
+    variants: [
+      {
+        productCode: "VGF-SB603060",
+        otherDetails: "60 cm x 30 cm x 60 cm",
+      },
+    ],
   },
   {
-    name: "WC 3545 M Motorized Treadmill",
+    name: "Vinex Gym Foam Cylinder Sofa",
+    description:
+      "Foam cylinder sofa made of PVC coated fabric with 3 sides zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/WC-3545-M-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/WC-3545-M-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/WC-3545-M-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/WC-3545-M-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/WC-3545-M-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/WC-3545-M.jpg 1232w",
-    mrp: "",
-    sellingPrice: "",
-    productMeta: "SKU: \n\t\t\tWC 3545 M\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM CYLINDER SOFA_7015.jpg",
+    variants: [
+      {
+        productCode: "VGF-CS3060",
+        otherDetails: "30 cm x 60 cm",
+      },
+    ],
   },
   {
-    name: "WC 3333 Treadmill",
+    name: "Vinex Gym Foam Doughnut",
+    description:
+      "Foam doughnut made of PVC coated fabric with complete zipper on one side for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/3333-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3333-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3333-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3333-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3333-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3333-1.jpg 1232w",
-    mrp: "₹ 69,000.00",
-    sellingPrice: "₹ 46,500.00",
-    productMeta: "SKU: \n\t\t\tWC 3333\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM DOUGHNUT_7067.jpg",
+    variants: [
+      {
+        productCode: "VGF-DO1230",
+        otherDetails: "120 cm x 30 cm",
+      },
+    ],
   },
   {
-    name: "WC 2288 M Motorized Treadmill",
+    name: "Vinex Gym Foam Hexagon",
+    description:
+      "Foam hexagon made of PVC coated fabric with 3 sides zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/2288m-3-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/2288m-3-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/2288m-3-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/2288m-3-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/2288m-3-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/2288m-3.jpg 1232w",
-    mrp: "₹ 69,500.00",
-    sellingPrice: "₹ 46,500.00",
-    productMeta: "SKU: \n\t\t\tWC 2288 M\t\t",
-    postedIn: "Categories: Treadmill Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM HEXAGON_7094.jpg",
+    variants: [
+      {
+        productCode: "VGF-SB1230",
+        otherDetails: "120 cm x 30 cm",
+      },
+    ],
   },
   {
-    name: "WC 3545I Treadmill",
+    name: "Vinex Gym Foam Semi - Cylinder",
+    description:
+      "Foam semi-cylinder made of PVC coated fabric with 3 sides zipper at bottom for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/3545i-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3545i-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3545i-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3545i-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3545i-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3545i-1.jpg 1232w",
-    mrp: "₹ 75,700.00",
-    sellingPrice: "₹ 48,000.00",
-    productMeta: "SKU: \n\t\t\tWC 3545I\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM SEMI - CYLINDER_7152.jpg",
+    variants: [
+      {
+        productCode: "VGF-CL603015",
+        otherDetails: "60 cm x 30 cm x 15 cm",
+      },
+      {
+        productCode: "VGF-CL803015",
+        otherDetails: "80 cm x 30 cm x 15 cm",
+      },
+    ],
   },
   {
-    name: "WC 4648I Treadmill",
+    name: "Vinex Gym Foam Round Bridge",
+    description:
+      "Foam round bridge made of PVC coated fabric with 3 sides zipper for easy insertion of foam. Comes with EP foam. Customized sizes can also be made on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/4648i-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/4648i-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/4648i-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/4648i-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/4648i-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/4648i-1.jpg 1232w",
-    mrp: "₹ 89,900.00",
-    sellingPrice: "₹ 56,000.00",
-    productMeta: "SKU: \n\t\t\tWC 4648I Treadmill\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYM FOAM ROUND BRIDGE_7175.jpg",
+    variants: [
+      {
+        productCode: "VGF-RB603030",
+        otherDetails: "60 cm x 30 cm x 30 cm",
+      },
+    ],
   },
   {
-    name: "WC 3777M MOTORIZED TREADMILL",
+    name: "Vinex Incline Mat 2 in 1 - Foam",
+    description:
+      "Vinex Incline mat made of PVC coated fabric with 3 sides zipper on bottom for easy insertion or removal of foam. Mat also folds into a cube shape using Velcro. Comes with P.E. foam. Size: 122 cm x 60 cm x 60 cm",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/WC3777M-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/WC3777M-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/WC3777M-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/WC3777M-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/WC3777M-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/WC3777M.jpg 1232w",
-    mrp: "₹ 65,000.00",
-    sellingPrice: "₹ 36,000.00",
-    productMeta: "",
-    postedIn: "Categories: Treadmill Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX INCLINE MAT 2 in 1 - FOAM_7213.jpg",
+    variants: [
+      {
+        productCode: "VIM-FO2N11226060",
+        otherDetails: "....",
+      },
+    ],
   },
   {
-    name: "WC 4848 AC Treadmill",
+    name: "Vinex Mailbox - Foam",
+    description:
+      "New mail box made of PVC coated fabric with 3 sides zipper for easy insertion or removal of foam. Comes with P.E. foam. Size: 51 cm x 41 cm x 91 cm",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/4848ac-2-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/4848ac-2-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/4848ac-2-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/4848ac-2-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/4848ac-2-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/4848ac-2.jpg 1232w",
-    mrp: "₹ 109,000.00",
-    sellingPrice: "₹ 77,500.00",
-    productMeta: "SKU: \n\t\t\tWC 4848AC\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX MAILBOX - FOAM_7290.jpg",
+    variants: [
+      {
+        productCode: "VMB-FO514191",
+        otherDetails: "....",
+      },
+    ],
   },
   {
-    name: "WC 2288I Treadmill",
+    name: "Vinex Stack Mats - Foam",
+    description:
+      "New Foam Stack mats is ultimate tool to enhance the climbing experience. Stack mats made of PVC coated fabric with long zipper on 3 sides for easy insertion or removal of foam. Comes with P.E. foam.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/2288i-3-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/2288i-3-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/2288i-3-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/2288i-3-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/2288i-3-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/2288i-3.jpg 1232w",
-    mrp: "₹ 77,000.00",
-    sellingPrice: "₹ 43,500.00",
-    productMeta: "SKU: \n\t\t\tWC 2288I\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX STACK MATS - FOAM_7312.jpg",
+    variants: [
+      {
+        productCode: "VSM-FO12218",
+        otherDetails: "122 cm x 122 cm x 18 cm",
+      },
+      {
+        productCode: "VSM-FO9018",
+        otherDetails: "91 cm x 91 cm x 18 cm",
+      },
+      {
+        productCode: "VSM-FO6015",
+        otherDetails: "61 cm x 61 cm x 15 cm",
+      },
+      {
+        productCode: "VSM-COM",
+        otherDetails: "Set of 3 mats",
+      },
+    ],
   },
   {
-    name: "WC 4646 Treadmill",
+    name: "Vinex Foam Balance Beam",
+    description:
+      "Vinex balance beam made of PVC coated fabric with zipper for easy insertion or removal of foam. It's perfect for developing balancing and coordination skills. Comes with P.E. foam. Size: 120 cm x 10 cm x 10 cm",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/WC-4646-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/WC-4646-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/WC-4646-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/WC-4646-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/WC-4646-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/WC-4646.jpg 1232w",
-    mrp: "",
-    sellingPrice: "",
-    productMeta: "SKU: \n\t\t\tWC 4646\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX FOAM BALANCE BEAM_7341.jpg",
+    variants: [
+      {
+        productCode: "VFBB-12010",
+        otherDetails: "....",
+      },
+    ],
   },
   {
-    name: "WC 3333I M Treadmill",
+    name: "Vinex Seesaw Circle - Foam",
+    description:
+      "Vinex foam circle made of PVC coated fabric with zipper for easy insertion or removal of foam. It can also be used for developing balancing skills through seesaw by splitting the circle through Velcro. Size: 60 cm (Circle) / 30 cm x 60 cm (Semi-Circle)",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/3333mi-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3333mi-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3333mi-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3333mi-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3333mi-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3333mi-1.jpg 1232w",
-    mrp: "₹ 83,000.00",
-    sellingPrice: "₹ 56,500.00",
-    productMeta: "SKU: \n\t\t\tWC 3333I M\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX SEESAW CIRCLE - FOAM_7380.jpg",
+    variants: [
+      {
+        productCode: "VSSC-FO3060",
+        otherDetails: "With P.E. Foam",
+      },
+    ],
   },
   {
-    name: "WC 3333 M Treadmill",
+    name: "Vinex Octagon - Foam",
+    description:
+      "Vinex Foam Octagons are an ultimate tool to enhance the balancing & co-ordination experience. Drum made of PVC coated fabric with zipper for easy insertion or removal of foam. Comes with P.E. foam.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/3333m-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3333m-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3333m-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3333m-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3333m-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3333m-1.jpg 1232w",
-    mrp: "₹ 75,000.00",
-    sellingPrice: "₹ 53,500.00",
-    productMeta: "SKU: \n\t\t\tWC 3333 M\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX OCTAGON - FOAM_7410.jpg",
+    variants: [
+      {
+        productCode: "VOG-FO3861",
+        otherDetails: "38 cm x 61 cm",
+      },
+      {
+        productCode: "VOG-FO5171",
+        otherDetails: "51 cm x 71 cm",
+      },
+      {
+        productCode: "VOG-FO6476",
+        otherDetails: "64 cm x 76 cm",
+      },
+      {
+        productCode: "VOG-FO7681",
+        otherDetails: "76 cm x 81 cm",
+      },
+      {
+        productCode: "VOG-FOPK4",
+        otherDetails: "Set of 4 pcs (1 pc each size, as above)",
+      },
+    ],
   },
   {
-    name: "WC 2288 Mi Motorized Treadmill",
+    name: "Vinex Gymnastic Vaulting Box - Foam",
+    description:
+      "Vinex Gymnastic Vaulting Box made of PVC coated fabric with PE foam inside the cover. The vaulting box is divided in to 4 colourful sections which can be easily attached and detached from each other. Zipper on 3 sides of each section to open the covers. Includes handles on both sides of each section for easy transportation. Size: 122 cm (L) x 91 cm (W) x 122 cm (H) Customized sizes are also available on request.",
     image:
-      "https://welcareindia.com/shop/wp-content/uploads/2288mi-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/2288mi-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/2288mi-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/2288mi-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/2288mi-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/2288mi-1.jpg 1232w",
-    mrp: "₹ 79,900.00",
-    sellingPrice: "₹ 48,500.00",
-    productMeta: "SKU: \n\t\t\tWC 2288I M\t\t",
-    postedIn: "Category: Welcare",
-  },
-  {
-    name: "WC 5777 AC Treadmill",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/5777ac-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/5777ac-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/5777ac-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/5777ac-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/5777ac-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/5777ac-1.jpg 1232w",
-    mrp: "₹ 181,000.00",
-    sellingPrice: "₹ 99,000.00",
-    productMeta: "SKU: \n\t\t\tWC 5777AC\t\t",
-    postedIn: "Category: Welcare",
-  },
-  {
-    name: "WC3500I DC MOTORIZED TREADMILL",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/3500i-3-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3500i-3-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3500i-3-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3500i-3-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3500i-3-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3500i-3.jpg 1232w",
-    mrp: "₹ 88,000.00",
-    sellingPrice: "₹ 54,000.00",
-    productMeta: "",
-    postedIn: "Categories: Treadmill Welcare",
-  },
-  {
-    name: "WC 4848DC Treadmill",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/4848dc-2-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/4848dc-2-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/4848dc-2-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/4848dc-2-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/4848dc-2-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/4848dc-2.jpg 1232w",
-    mrp: "₹ 123,000.00",
-    sellingPrice: "₹ 72,000.00",
-    productMeta: "SKU: \n\t\t\tWC 4848DC\t\t",
-    postedIn: "Category: Welcare",
-  },
-  {
-    name: "WC-2288 Treadmill",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/2288-2-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/2288-2-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/2288-2-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/2288-2-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/2288-2-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/2288-2.jpg 1232w",
-    mrp: "₹ 63,000.00",
-    sellingPrice: "₹ 39,500.00",
-    productMeta: "SKU: \n\t\t\tWC 2288\t\t",
-    postedIn: "Category: Welcare",
-  },
-  {
-    name: "WC 5888 Treadmill",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/5888-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/5888-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/5888-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/5888-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/5888-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/5888-1.jpg 1232w",
-    mrp: "₹ 185,000.00",
-    sellingPrice: "₹ 102,000.00",
-    productMeta: "SKU: \n\t\t\tWC 5888 AC\t\t",
-    postedIn: "Category: Welcare",
-  },
-  {
-    name: "WC3500 DC MOTORIZED TREADMILL",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/3500-3-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3500-3-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3500-3-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3500-3-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3500-3-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3500-3.jpg 1232w",
-    mrp: "₹ 77,000.00",
-    sellingPrice: "₹ 49,000.00",
-    productMeta: "",
-    postedIn: "Categories: Treadmill Welcare",
-  },
-  {
-    name: "WC-3555 Motorized Treadmill",
-    image:
-      "https://welcareindia.com/shop/wp-content/uploads/3555-1-600x776.jpg 600w, https://welcareindia.com/shop/wp-content/uploads/3555-1-232x300.jpg 232w, https://welcareindia.com/shop/wp-content/uploads/3555-1-791x1024.jpg 791w, https://welcareindia.com/shop/wp-content/uploads/3555-1-768x994.jpg 768w, https://welcareindia.com/shop/wp-content/uploads/3555-1-1187x1536.jpg 1187w, https://welcareindia.com/shop/wp-content/uploads/3555-1.jpg 1232w",
-    mrp: "₹ 58,000.00",
-    sellingPrice: "₹ 35,000.00",
-    productMeta: "SKU: \n\t\t\tWC 3555\t\t",
-    postedIn: "Category: Welcare",
+      "http://www.vinex.in/Uploaded_Images/mm_bigger/VINEX GYMNASTIC VAULTING BOX - FOAM_7481.jpg",
+    variants: [
+      {
+        productCode: "VGVB-FO12291122",
+        otherDetails: "....",
+      },
+    ],
   },
 ];
 for (i = 0; i < data.length; i++) {
   // ./product-details/prduct name.html
   var li = data[i];
   var title = li["name"];
-  var image = li.image.split(",")[0].split(" ")[0];
+  var image = li["image"];
   //   console.log(image);
-  var desc = li["postedIn"];
-  var price = li["sellingPrice"];
+  // var desc = li["postedIn"];
+  // var price = li["sellingPrice"];
   var un = title.split(" ").join("-");
   un = un.replace(/\//g, "-") + "-" + i;
   var url = "./product-details/" + un + ".html";
+  console.log(url);
   var ele = document.getElementsByClassName("products product_list grid row");
   var html =
     ` <div class="item col-lg-4 col-md-6 col-sm-6 text-center"
@@ -278,9 +316,7 @@ for (i = 0; i < data.length; i++) {
             <div class="product-group-price">
             <div class="product-price-and-shipping">
                 <span itemprop="price" class="price"
-                >` +
-    price +
-    `</span
+                >......</span
                 >
             </div>
             </div>
@@ -312,7 +348,7 @@ for (i = 0; i < data.length; i++) {
             <i class="fa fa-heart-o"></i>
             <span>Add to Wishlist</span>
         </a>
-        <form
+      <!--  <form
             action="http://localhost/sportsjam/en/cart"
             method="post"
         >
@@ -339,7 +375,7 @@ for (i = 0; i < data.length; i++) {
             ><span>Add To Cart</span
             ><i class="fa fa-cart-plus"></i
             ></a>
-        </form>
+        </form> -->
         <a
             href="#"
             class="quick-view hidden-sm-down"
