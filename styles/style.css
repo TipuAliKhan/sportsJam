@@ -34705,8 +34705,8 @@ div.tags_block .block_content a:hover {
     display: inline-block;
     list-style: none;
     position: relative;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .lang-rtl .nov-megamenu .menu > li {
     padding-left: 18px;
