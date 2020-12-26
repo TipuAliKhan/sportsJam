@@ -22,7 +22,7 @@ addToCartBtns.forEach(function (btn) {
         else
         {
             myStorage = window.localStorage;
-            k.innerHTML = JSON.parse(myStorage["nf-cart"]).length
+            k.innerHTML = JSON.parse(myStorage["nf-cart"]).length;
         }
         count++;
         console.log(k);
