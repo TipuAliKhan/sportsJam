@@ -108,8 +108,7 @@ for (i = 0; i < data.length; i++) {
   >
   <div
   class="product-miniature js-product-miniature item-one"
-  data-id-product="3"
-  data-id-product-attribute="13"
+  data-product-name = "" data-product-product-id ="" data-product-product-price="" data-product-product-discount="" data-product-product-brand="" data-product-product-image=""
   itemscope
   itemtype="http://schema.org/Product"
   >

@@ -2535,7 +2535,6 @@ data = [
 ];
 
 for (i = 0; i < data.length; i++) {
-  // ./product-details/prduct name.html
   var li = data[i];
   var title = li["name"];
   var image = li.image[0];
@@ -2544,7 +2543,6 @@ for (i = 0; i < data.length; i++) {
   var un = title.split(" ").join("-");
   un = un.replace(/\//g, "-") + "-" + i;
   var url = "./product-details/" + un + ".html";
-  console.log(url);
   var ele = document.getElementsByClassName("products product_list grid row");
   var html =
     ` <div class="item col-lg-4 col-md-6 col-sm-6 text-center"
@@ -2648,22 +2646,8 @@ for (i = 0; i < data.length; i++) {
           <i class="fa fa-heart-o"></i>
           <span>Add to Wishlist</span>
       </a>
-      <form
-          action="http://localhost/sportsjam/en/cart"
-          method="post"
-      >
-          <input
-          type="hidden"
-          name="token"
-          value="380c4d7aea12c17aa9fc669ea4cf2be3"
-          />
-          <input
-          type="hidden"
-          name="id_product"
-          value="3"
-          />
-          <input type="hidden" name="qty" value="1" />
-          <a
+      
+          <a 
           class="add-to-cart show_popup has-text align-self-center"
           href="#"
           data-button-action="add-to-cart"
@@ -2672,10 +2656,23 @@ for (i = 0; i < data.length; i++) {
               class="fa fa-spinner fa-spin"
               aria-hidden="true"
               ></i></span
-          ><span>Add To Cart</span
+          ><span data-productId=" ` +
+          title +
+          `"
+          data-productName="` +
+          title +
+          `" 
+          data-productImage="` +
+          title +
+          `" 
+          data-currency="INR" 
+          data-price="500" 
+          data-discount="0" 
+          data-cod="true" 
+          class="add-to-cart-btn">Add To Cart</span
           ><i class="fa fa-cart-plus"></i
           ></a>
-      </form>
+     
       <a
           href="#"
           class="quick-view hidden-sm-down"
