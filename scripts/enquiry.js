@@ -1,3 +1,9 @@
+$( document ).ready(function() {
+  $('.header-cart-icon').attr("onclick","func()");  
+});
+function func(){
+  window.location.href = "/cart.html";
+}
 function enquire_function() {
   event.preventDefault();
   var email = document.getElementById("frm-email").value;
@@ -10,6 +16,7 @@ function enquire_function() {
     method: "POST",
     timeout: 0,
     headers: {
+
       "Content-Type": ["application/json", "text/plain"],
       Authorization: "5f54fb420275631f28aa698b",
     },
