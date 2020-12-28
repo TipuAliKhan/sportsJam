@@ -32,3 +32,24 @@ addToCartBtns.forEach(function (btn) {
         }
     });
 });
+
+const _get = query=>document.querySelector(query);
+const _getAll = query=>document.querySelectorAll(query);
+
+const addListener = (eventName, elements, callback)=>{
+  if(!NodeList.prototype.isPrototypeOf(elements)){
+    elements.addEventListener(eventName, callback);
+  }
+  else{
+    elements.forEach((element)=>{
+        element.addEventListener(eventName, callback);
+    });
+  }
+};
+  
+    
+ const updateCartBadge = ()=>{
+    let badge = _get("#myNavbar .cart a");
+    badge.innerText = cartify.getQuantity();
+ };
+ cartify.subscribe(updateCartBadge);

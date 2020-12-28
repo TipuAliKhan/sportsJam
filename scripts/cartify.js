@@ -27,7 +27,7 @@ const cartify = (function(){
             let cartArray = JSON.parse(JSON.stringify(cart));
             callAllSubscribers(cartArray);
         };
-    
+        
         const callAllSubscribers = function () {
             listOfSubscribers.forEach(function (subscriber) {
                 subscriber();
@@ -53,15 +53,18 @@ const cartify = (function(){
             });
             return validationFlag;
         };
-    
+        
         this.add = function (cartObject) {
             if(!validateCartItem(cartObject)){
                 throw new Error(`Invalid cart item, required properties: ${JSON.stringify(requiredProperties)}`);
             }
+            else if(cartObject.quantity && typeof cartObject.quantity !== "number"){
+                throw new Error("quantity should be number type and greater than 0");
+            }
             
             let objIndex = this.findIndex(cartObject._id);
             if (objIndex < 0) {
-                cartObject.quantity = 1;
+                cartObject.quantity = cartObject.quantity || 1;
                 cart.push(cartObject);
                 setObjectToLocalStorage(cartName, cart);
                 return true;
@@ -88,52 +91,77 @@ const cartify = (function(){
             setObjectToLocalStorage(cartName, cart);
         };
     
-        this.getCart = function () {
-            return cart;
-        };
-    
-        this.findIndex = function(objectId){
-            return cart.findIndex(function (obj) { return obj._id === objectId; });
-        };
-    
-        this.getUniqueQuantity = function () {
-            return cart.length;
-        };
-    
-        this.getQuantity = function (objectId=undefined) {
+        this.getQuantity = function () {
             return cart.reduce(function(sum, item){
-                if(objectId===undefined){
-                    sum = sum + item.quantity;
-                }
-                else if(item._id == objectId){
+                sum = sum + item.quantity;
+                return sum;
+            }, 0);
+        };
+
+        this.getQuantityById = function (objectId) {
+            return cart.reduce(function(sum, item){
+                if(item._id == objectId){
                     sum = sum + item.quantity;
                 }
                 return sum;
             }, 0);
         };
-    
-        this.getPayableAmount = function(){
-            return cart.reduce(function(sum, item){
-                return sum + (item.price - item.discount) * item.quantity;
-            }, 0);
-        };
 
+        this.getUniqueQuantity = function () {
+            return cart.length;
+        };
+    
         this.getAmount = function(){
             return cart.reduce(function(sum, item){
                 return sum + (item.price * item.quantity);
             }, 0);
         };
 
-        this.getTotalDiscount = function(){
-           return this.getAmount() - this.getPayableAmount();
+        this.getPayableAmount = function(){
+            return cart.reduce(function(sum, item){
+                return sum + (item.price - item.discount) * item.quantity;
+            }, 0);
         };
+
+        this.getTotalDiscount = function(){
+            return this.getAmount() - this.getPayableAmount();
+        };
+
+        this.getAmountById = function(objectId){
+            let item = this.getItem(objectId);
+            return item.price;
+        };
+
+        this.getPayableAmountById = function(objectId){
+            let item = this.getItem(objectId);
+            return (item.price - item.discount) * item.quantity;
+        };
+        
+        this.getDiscountById = function(objectId){
+            let item = this.getItem(objectId);
+            return item.discount * item.quantity;;
+        };
+        
+        this.getAllItems = function () {
+            return JSON.parse(JSON.stringify(cart));
+        };
+
+        this.getItem = function(objectId){
+            let itemIndex = this.findIndex(objectId);
+            return {...cart[itemIndex]}
+        }
     
+        this.findIndex = function(objectId){
+            return cart.findIndex(function (obj) { return obj._id === objectId; });
+        };
+
         this.clearCart = function () {
             cart = [];
             setObjectToLocalStorage(cartName, []);
         };
     
         this.subscribe = function (subscriberFunction) {
+            subscriberFunction([...cart]);
             listOfSubscribers.push(subscriberFunction);
         };
     
@@ -148,7 +176,7 @@ const cartify = (function(){
             cartArray = Array.isArray(cartArray) === true ? cartArray : [];
             cart = [...cartArray];
             setObjectToLocalStorage(cartName, cartArray);
-            console.log("Cart Initialized");
+            console.log("Cartify Initialized");
         };
 
         window.addEventListener("storage", function (storageObject) {
@@ -156,9 +184,11 @@ const cartify = (function(){
             setObjectToLocalStorage(cartName, JSON.parse(storageObject.oldValue));
             console.error(`Change in ${cartName} is not allowed !!`);
         }, false);
+        
     };
     
     let cartObject = new Cartify();    
     cartObject.init();
     return cartObject;
 })();
+
