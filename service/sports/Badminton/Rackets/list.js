@@ -1555,7 +1555,7 @@ for (i = 0; i < data.length; i++) {
           title +
           `" 
           data-productImage="` +
-          title +
+          image +
           `" 
           data-currency="INR" 
           data-price="500" 
