@@ -46,20 +46,17 @@ data = [
     }
   ];
 for (i = 0; i < data.length; i++) {
-  // ./product-details/prduct name.html
-  var li = data[i];
-  var title = li["name"];
-  // var image = li.image.split(",")[0].split(" ")[0];
-  var image = li["img"];
-  //   console.log(image);
-  var desc = li["postedIn"];
-  var price = li["sellingPrice"];
-  var un = title.split(" ").join("-");
-  un = un.replace(/\//g, "-") + "-" + i;
-  var url = "./product-details/" + un + ".html";
-  var ele = document.getElementsByClassName("products product_list grid row");
-  var html =
-    ` <div class="item col-lg-4 col-md-6 col-sm-6 text-center"
+    var li = data[i];
+    var title = li["name"];
+    var image = li["img"];
+    var desc = li["desc"];
+    var price = li["sellingPrice"];
+    var un = title.split(" ").join("-");
+    un = un.replace(/\//g, "-") + "-" + i;
+    var url = "./product-details/" + un + ".html";
+    var ele = document.getElementsByClassName("products product_list grid row");
+    var html =
+      ` <div class="item col-lg-4 col-md-6 col-sm-6 text-center"
     >
     <div
     class="product-miniature js-product-miniature item-one"
@@ -71,20 +68,20 @@ for (i = 0; i < data.length; i++) {
     <div class="thumbnail-container">
         <a
         href="` +
-    url +
-    `" class="thumbnail product-thumbnail one-image"
+      url +
+      `" class="thumbnail product-thumbnail one-image"
         >
         <img
             class="img-fluid image-cover"
             src="` +
-    image +
-    `"
+      image +
+      `"
             alt="` +
-    title +
-    `"
+      title +
+      `"
             data-full-size-image-url="` +
-    image +
-    `"
+      image +
+      `"
             width="450"
             height="268"
         />
@@ -95,18 +92,18 @@ for (i = 0; i < data.length; i++) {
         <div class="category-title">
             <a
             href="` +
-    url +
-    `"
+      url +
+      `"
             ></a
             >
         </div>
     
         <div class="product-title" itemprop="name">
             <a href="` +
-    url +
-    `">` +
-    title +
-    `</a
+      url +
+      `">` +
+      title +
+      `</a
             >
         </div>
     
@@ -126,17 +123,17 @@ for (i = 0; i < data.length; i++) {
             <div class="product-group-price">
             <div class="product-price-and-shipping">
                 <span itemprop="price" class="price"
-                >₹ ` +
-    price +
-    `</span
+                > ₹` +
+      price +
+      `</span
                 >
             </div>
             </div>
         </div>
         <div class="product-desc">
         ` +
-    title +
-    `
+      title +
+      `
         </div>
         </div>
         <div
@@ -150,32 +147,18 @@ for (i = 0; i < data.length; i++) {
             href="#"
             data-rel="3"
             onclick="WishlistCart('wishlist_block_list', 'add', '3', false, 1, '', '` +
-    title +
-    `', '` +
-    title +
-    `.html', '` +
-    image +
-    `'); return false;"
+      title +
+      `', '` +
+      title +
+      `.html', '` +
+      image +
+      `'); return false;"
         >
             <i class="fa fa-heart-o"></i>
             <span>Add to Wishlist</span>
         </a>
-        <form
-            action="http://localhost/sportsjam/en/cart"
-            method="post"
-        >
-            <input
-            type="hidden"
-            name="token"
-            value="380c4d7aea12c17aa9fc669ea4cf2be3"
-            />
-            <input
-            type="hidden"
-            name="id_product"
-            value="3"
-            />
-            <input type="hidden" name="qty" value="1" />
-            <a
+        
+            <a 
             class="add-to-cart show_popup has-text align-self-center"
             href="#"
             data-button-action="add-to-cart"
@@ -184,10 +167,25 @@ for (i = 0; i < data.length; i++) {
                 class="fa fa-spinner fa-spin"
                 aria-hidden="true"
                 ></i></span
-            ><span>Add To Cart</span
+            ><span data-productId=" ` +
+            title +
+            `"
+            data-productName="` +
+            title +
+            `" 
+            data-productImage="` +
+            image +
+            `" 
+            data-currency="INR" 
+            data-price="` +
+            price +
+            `" 
+            data-discount="0" 
+            data-cod="true" 
+            class="add-to-cart-btn">Add To Cart</span
             ><i class="fa fa-cart-plus"></i
             ></a>
-        </form>
+       
         <a
             href="#"
             class="quick-view hidden-sm-down"
@@ -200,5 +198,6 @@ for (i = 0; i < data.length; i++) {
     </div>
     </div>
     </div>`;
-  ele[0].insertAdjacentHTML("afterbegin", html);
-}
+    ele[0].insertAdjacentHTML("afterbegin", html);
+  }
+  

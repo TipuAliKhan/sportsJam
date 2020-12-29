@@ -1504,7 +1504,7 @@ for (i = 0; i < data.length; i++) {
           <div class="product-group-price">
           <div class="product-price-and-shipping">
               <span itemprop="price" class="price"
-              >` +
+              > ₹` +
     price +
     `</span
               >
@@ -1558,7 +1558,9 @@ for (i = 0; i < data.length; i++) {
           image +
           `" 
           data-currency="INR" 
-          data-price="500" 
+          data-price="` +
+          price +
+          `" 
           data-discount="0" 
           data-cod="true" 
           class="add-to-cart-btn">Add To Cart</span
