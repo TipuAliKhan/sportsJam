@@ -316,7 +316,7 @@ for (i = 0; i < data.length; i++) {
             <div class="product-group-price">
             <div class="product-price-and-shipping">
                 <span itemprop="price" class="price"
-                >......</span
+                >Price Not Available</span
                 >
             </div>
             </div>
