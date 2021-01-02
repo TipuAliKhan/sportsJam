@@ -1,10 +1,10 @@
  $(document).ready(()=>{
  
     const updateCartBadge = ()=>{
-      let $badge = document.querySelector(".cart-add-product");
+      let $badge = document.querySelector(".cart-count");
       $badge.setAttribute("data-count", cartify.getUniqueQuantity());
     }
     cartify.subscribe(updateCartBadge);
-    // $(".cart-add-product").html(cartify.getUniqueQuantity());
+    // $(".cart-count").html(cartify.getUniqueQuantity());
   });
   

@@ -15,7 +15,7 @@ const cartify = (function(){
             "currency": "string"
         };
 
-        const cartName = "nf-cart";
+        const cartName = "sj-cart";
         const listOfSubscribers = [];
     
         const getObjectFromLocalStorage = function (key) {
