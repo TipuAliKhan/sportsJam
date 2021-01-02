@@ -11,18 +11,18 @@ addToCartBtns.forEach(function (btn) {
             name: element.getAttribute('data-productName'),
             image: element.getAttribute('data-productImage'),
             currency: element.getAttribute('data-currency'),
-            price: parseInt(element.getAttribute('data-price')),
+            price: parseInt(element.getAttribute('data-price').replaceAll(',','')),
             discount: parseInt(element.getAttribute('data-discount')),
             quantity: 1,
             isCODAvailable: element.getAttribute('data-cod')
         };
-        var k = document.getElementsByClassName("cart-add-product")[0];
+        var k = document.getElementsByClassName("cart-count")[0];
         if(k.getAttribute("data-count") != null)
-            k.innerHTML = parseInt(document.getElementsByClassName("cart-add-product")[0].getAttribute("data-count"))+parseInt(1);
+            k.innerHTML = parseInt(document.getElementsByClassName("cart-count")[0].getAttribute("data-count"))+parseInt(1);
         else
         {
             myStorage = window.localStorage;
-            k.innerHTML = JSON.parse(myStorage["nf-cart"]).length;
+            k.innerHTML = JSON.parse(myStorage["sj-cart"]).length;
         }
         count++;
         console.log(k);
@@ -49,7 +49,7 @@ const addListener = (eventName, elements, callback)=>{
   
     
  const updateCartBadge = ()=>{
-    let badge = _get("#myNavbar .cart a");
+    let badge = _get(".cart-count");
     badge.innerText = cartify.getQuantity();
  };
  cartify.subscribe(updateCartBadge);
