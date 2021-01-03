@@ -62649,3 +62649,16 @@ body:not(.page-index).displayhomenovfive #main-site {
     max-width: 400px;
   }
 }
+
+#manufacture154794953 .item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#manufacture154794953 .item img{
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+}
