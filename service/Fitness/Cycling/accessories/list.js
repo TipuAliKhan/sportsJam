@@ -206,7 +206,7 @@ data = [
             <div class="product-group-price">
             <div class="product-price-and-shipping">
                 <span itemprop="price" class="price"
-                >` +
+                >₹` +
       price +
       `</span
                 >

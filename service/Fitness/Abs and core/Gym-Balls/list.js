@@ -18,8 +18,8 @@ data =[
       "discount": "20% off"
     },
     {
-      "name": "Body Sculpture Anti Burst Gym Ball 26\"",
-      "desc": "Body Sculpture Anti Burst Gym Ball 26\" ",
+      "name": "Body Sculpture Anti Burst Gym Ball 26",
+      "desc": "Body Sculpture Anti Burst Gym Ball 26",
       "img": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/BB-001TBL-26L.jpg",
       "currency": "INR ",
       "mrp": "1399",
@@ -81,8 +81,8 @@ data =[
       "discount": "20% off"
     },
     {
-      "name": "Body Sculpture Anti Burst Gym Ball 30\"",
-      "desc": "Body Sculpture Anti Burst Gym Ball 30\" ",
+      "name": "Body Sculpture Anti Burst Gym Ball 30",
+      "desc": "Body Sculpture Anti Burst Gym Ball 30",
       "img": "https://storage.sg.content-cdn.io/cdn-cgi/image/width=500,height=500,quality=75,format=auto,fit=cover,g=top/in-resources/b368029c-a4dd-448a-a888-58348cb1b144/Images/ProductImages/Source/BB-001TBL-30DL.jpg",
       "currency": "INR ",
       "mrp": "1699",
